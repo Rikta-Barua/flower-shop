@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* nav bar styles */
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:15px;
+}
+.nav-title{
+    font-style: italic;
+    font-size: 1.2em;
+    color:rgb(96, 91, 91);
+}
+.nav-icon{
+    color:rgb(226, 69, 174);
+    margin-left:4px;
+}
+nav ul{
+    display:flex;
+}
+nav ul li{
+  list-style: none;
+  margin-right: 13px;
+  font-size: 15px;
+  font-weight: 600;
+}
+nav ul li:hover{
+    color:gray;
+}
+.icon-container ul{
+    display:flex;
+
+}
+.icon-container ul li{
+    list-style: none;
+    margin-right:20px;
+}
+    
