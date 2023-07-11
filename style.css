@@ -4,7 +4,6 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Open Sans', sans-serif;
 
 }
 .primary-btn{
@@ -87,9 +86,9 @@ nav ul li:hover{
     color:gray;
 }
 .banner-img{
-width: 300px;
-height: 430px;
-flex-shrink: 0;
+width: 280px;
+height: 400px;
+margin-top:30px;
 
 }
 /* our featured section */
@@ -107,6 +106,7 @@ flex-shrink: 0;
 .featured-title{
     font: size 15px;
     font-weight: bold;
+    text-shadow: 4px 4px 6px gray;
 
 }
 .featured-description{
@@ -223,4 +223,116 @@ flex-shrink: 0;
 .sale-img{
     width:140px;
 }
+
+/* media section styles */
+.media{
+    width:560px;
+    margin: 0 auto 35px;
+   
+
+}
+.media-info{
+    text-align: center;
+    width:300px;
+    margin: 0 auto;
+
+
+}
+.media-title{
+    font-size:20px;
+    font-weight: 800;
+    margin-top:35px;
+    margin-bottom:10px;
+    text-shadow: 4px 4px 6px gray;
+
+}
+.media-description{
+    color:gray;
+    font-size: 10px;
+    margin-bottom:25px;
+
+
+}
+.img-container{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+
+
+}
+
+.flower-img{
+    width:125px;
+    border-radius: 5px;
+    box-shadow:3px 3px 6px gray;
+}
+/* deals section styles */
+.deals{
+    background-image: url("Flower\ Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:170px;
+    width:565px;
+    margin: 0 auto  35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
     
+
+}
+.deals-info{
+    text-align: center;
+
+
+}
+.deals-title{
+
+}
+.deals-description{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 8px;
+    color:rgb(107, 98, 98);
+
+}
+input[type=email]{
+    padding:8px 8px;
+    border-radius: 6px;
+    border:none;
+    background-color: white;
+    width:190px;
+}
+::placeholder{
+    font-size: 10px;
+}
+footer{
+    height:200px;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-container{
+    width:400px;
+    text-align: center;
+
+}
+.footer-title{
+
+}
+.footer-text{
+    color:#E55473;
+}
+.footer-desc{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 10px;
+
+}
+.footer-sub-desc{
+    font-size: 7px;
+
+}
